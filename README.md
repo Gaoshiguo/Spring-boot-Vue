@@ -134,3 +134,5 @@
 ```
 该代码的布局格式如下图所示：
 ![Element](https://github.com/Gaoshiguo/Spring-boot-Vue/blob/master/%E6%88%AA%E5%9B%BE/3.png)</br>
+我们将上述Elementui模板放入刚刚新建的Vue工程里的App.vue</br>
+可以看到该模板已经被我们成功导入了</br>
