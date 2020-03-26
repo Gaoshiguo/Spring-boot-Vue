@@ -2,8 +2,8 @@
 ---
 #该项目用于展示如何通过前后端分离技术创建web工程,前端使用Vue+Elementui,后端使用Spring boot,数据库使用MySQL</br>
 ---
-*生产环境：windows+Vue2.x+Elementui+Spring Boot+mysql8.0</br>
-*生产工具IDEA</br>
+* 生产环境：windows+Vue2.x+Elementui+Spring Boot+mysql8.0</br>
+* 生产工具IDEA</br>
 ---
 # 准备工作</br>
 ## 一、安装Vue及Elementui:</br>
@@ -14,4 +14,7 @@
 5.在Vue中安装Elementui:`cnpm install element-ui --save`</br>
 ---
 ## 二、创建一个Vue工程：</br>
-* 方式一：输入：`vue init webpack firstapp`(创建一个名为firstapp的Vue项目)</br>
+* 方式一：cd 命令进入想要存放vue项目的文件夹，然后输入：`vue init webpack firstapp`(创建一个名为firstapp的Vue项目)</br>
+其中几个相应选项的设置见下图：
+![](https://upload-images.jianshu.io/upload_images/11329965-88a69349b40ee7fe.png?imageMogr2/auto-orient/strip|imageView2/2/w/937/format/webp)
+* 方式二：输入：`vue ui`(进入图形化操作界面)</br>
