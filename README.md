@@ -1,6 +1,6 @@
 # Spring-boot-Vue
 ---
-#该项目用于展示如何通过前后端分离技术创建web工程,前端使用Vue+Elementui,后端使用Spring boot,数据库使用MySQL</br>
+# 该项目用于展示如何通过前后端分离技术创建web工程,前端使用Vue+Elementui,后端使用Spring boot,数据库使用MySQL</br>
 ---
 * 生产环境：windows+Vue2.x+Elementui+Spring Boot+mysql8.0</br>
 * 生产工具IDEA</br>
