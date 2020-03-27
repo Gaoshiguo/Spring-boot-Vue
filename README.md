@@ -150,4 +150,72 @@
 我们将上述Elementui模板放入刚刚新建的Vue工程里的App.vue</br>
 可以看到该模板已经被我们成功导入了</br>
 # 接下来，我们通过route动态加载菜单选项
+***
+首先我们在App.vue中创建几个页面，然后将其添加到router->index.js中的routes。</br>
+例如：我创建了4个页面`PageOne``PageTwo``PageThree``PageFour`</br>
+在index.js中这样设置
+```vue
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+import Home from '../views/Home.vue'
+import PageOne from '../views/PageOne'
+import PageTwo from '../views/PageTwo'
+import PageThree from '../views/PageThree'
+import PageFour from '../views/PageFour'
+import App from "../App";
 
+Vue.use(VueRouter)
+const routes = [
+  {
+    path:'/',
+    name:'导航1',
+    component:App,
+    children:[
+      {
+        path:'/PageOne',
+        name:'页面1',
+        component:PageOne
+      },
+      {
+        path:'/PageTwo',
+        name:'页面2',
+        component:PageTwo
+      },
+    ]
+  },
+  {
+    path:'/navigation',
+    name:'导航2',
+    component:App,
+    children:[
+      {
+        path:'/PageThree',
+        name:'页面3',
+        component:PageThree
+      },
+      {
+        path:'/PageFour',
+        name:'页面4',
+        component:PageFour
+      },
+    ]
+  },
+]
+const router = new VueRouter({
+  mode: 'history',
+  base: process.env.BASE_URL,
+  routes
+})
+export default router
+
+```
+在App.vue中通过获取index来实现异步控制</br>
+```vue
+<el-menu>
+         <el-submenu v-for="(item,index) in $router.options.routes" :index="index+''">
+           <template slot="title"><i class="el-icon-message"></i>{{item.name}}</template>
+         <el-menu-item v-for="(item2,index2) in item.children" :index="index+'-'+index2">{{item2.name}}</el-menu-item>
+         </el-submenu>
+       </el-menu>
+```
+***
