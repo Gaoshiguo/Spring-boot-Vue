@@ -153,6 +153,7 @@
 ***
 首先我们在App.vue中创建几个页面，然后将其添加到router->index.js中的routes。</br>
 例如：我创建了4个页面`PageOne``PageTwo``PageThree``PageFour`</br>
+![Element](https://github.com/Gaoshiguo/Spring-boot-Vue/blob/master/%E6%88%AA%E5%9B%BE/5.png)</br>
 在index.js中这样设置
 ```vue
 import Vue from 'vue'
