@@ -27,7 +27,7 @@
 ### 三、引入Elementui前端模板</br>
 打开[Elementui网址](https://element.eleme.cn/#/zh-CN/component/container)</br>
 我们在容器布局中选择一个布局与我们需求类似的Elementui模板源码
-```
+```Vue
 <el-container style="height: 500px; border: 1px solid #eee">
   <el-aside width="200px" style="background-color: rgb(238, 241, 246)">
     <el-menu :default-openeds="['1', '3']">
@@ -139,11 +139,11 @@
 ***
 <font face='宋体'><font color='red'>Elementui相关标签的说明：</font></br>
 `el-container:`构建整个页面框架</br>
-`el-aside`:构建左侧菜单</br>
-`el-menu`:左侧菜单，常用属性说明：</br>
-    `default-openeds`:默认展开的菜单，通过index关联，用法如下：`<el-menu :default-openeds="['1', '2','3']">`</br>
-    `default-active`:默认选中的菜单，通过index关联，用法同`default-openeds`</br>
-`el-submenu`:可展开的菜单，其常用的属性有：</br>
-    `index`:菜单的下标，属于文本类型</br>
+>`el-aside`:构建左侧菜单</br>
+>`el-menu`:左侧菜单，常用属性说明：</br>
+>>`default-openeds`:默认展开的菜单，通过index关联，用法如下：`<el-menu :default-openeds="['1', '2','3']">`</br>
+>>`default-active`:默认选中的菜单，通过index关联，用法同`default-openeds`</br>
+>`el-submenu`:可展开的菜单，其常用的属性有：</br>
+>>`index`:菜单的下标，属于文本类型</br>
 
 ***
