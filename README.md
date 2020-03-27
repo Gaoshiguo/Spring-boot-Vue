@@ -138,12 +138,12 @@
 可以看到该模板已经被我们成功导入了</br>
 ***
 Elementui相关标签的说明：
-`el-container:`构建整个页面框架
-`el-aside`:构建左侧菜单
-`el-menu`:左侧菜单，常用属性说明：
-    `default-openeds`:默认展开的菜单，通过index关联，用法如下：`<el-menu :default-openeds="['1', '2','3']">`
-    `default-active`:默认选中的菜单，通过index关联，用法同`default-openeds`
-`el-submenu`:可展开的菜单，其常用的属性有：
-    `index`:菜单的下标，属于文本类型
+`el-container:`构建整个页面框架</br>
+`el-aside`:构建左侧菜单</br>
+`el-menu`:左侧菜单，常用属性说明：</br>
+    `default-openeds`:默认展开的菜单，通过index关联，用法如下：`<el-menu :default-openeds="['1', '2','3']">`</br>
+    `default-active`:默认选中的菜单，通过index关联，用法同`default-openeds`</br>
+`el-submenu`:可展开的菜单，其常用的属性有：</br>
+    `index`:菜单的下标，属于文本类型</br>
 
 ***
