@@ -134,7 +134,7 @@
 ```
 ***
 <font face='宋体'><font color='red'>Elementui相关标签的说明：</font></br>
-`el-container:构建整个页面框架</br>
+`el-container`:构建整个页面框架</br>
 >`el-aside`:构建左侧菜单</br>
 >`el-menu`:左侧菜单，常用属性说明：</br>
 >>`default-openeds`:默认展开的菜单，通过index关联，用法如下：`<el-menu :default-openeds="['1', '2','3']">`</br>
@@ -149,4 +149,5 @@
 ![Element](https://github.com/Gaoshiguo/Spring-boot-Vue/blob/master/%E6%88%AA%E5%9B%BE/3.png)</br>
 我们将上述Elementui模板放入刚刚新建的Vue工程里的App.vue</br>
 可以看到该模板已经被我们成功导入了</br>
+# 接下来，我们通过route动态加载菜单选项
 
