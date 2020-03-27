@@ -136,3 +136,14 @@
 ![Element](https://github.com/Gaoshiguo/Spring-boot-Vue/blob/master/%E6%88%AA%E5%9B%BE/3.png)</br>
 我们将上述Elementui模板放入刚刚新建的Vue工程里的App.vue</br>
 可以看到该模板已经被我们成功导入了</br>
+***
+Elementui相关标签的说明：
+`el-container:`构建整个页面框架
+`el-aside`:构建左侧菜单
+`el-menu`:左侧菜单，常用属性说明：
+    `default-openeds`:默认展开的菜单，通过index关联，用法如下：`<el-menu :default-openeds="['1', '2','3']">`
+    `default-active`:默认选中的菜单，通过index关联，用法同`default-openeds`
+`el-submenu`:可展开的菜单，其常用的属性有：
+    `index`:菜单的下标，属于文本类型
+
+***
