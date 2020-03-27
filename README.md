@@ -1,6 +1,6 @@
 # Spring-boot-Vue
 ---
-# <font color='red'>该项目用于展示如何通过前后端分离技术创建web工程,前端使用Vue+Elementui,后端使用Spring boot,数据库使用MySQL</br>
+# <font color='red'>该项目用于展示如何通过前后端分离技术创建web工程,前端使用Vue+Elementui,后端使用Spring boot,数据库使用MySQL</font></br>
 ---
 * 生产环境：windows+Vue2.x+Elementui+Spring Boot+mysql8.0</br>
 * 生产工具IDEA</br>
@@ -137,7 +137,7 @@
 我们将上述Elementui模板放入刚刚新建的Vue工程里的App.vue</br>
 可以看到该模板已经被我们成功导入了</br>
 ***
-<font face='宋体'><font color='red'>Elementui相关标签的说明：</br>
+<font face='宋体'><font color='red'>Elementui相关标签的说明：</font></br>
 `el-container:`构建整个页面框架</br>
 `el-aside`:构建左侧菜单</br>
 `el-menu`:左侧菜单，常用属性说明：</br>
